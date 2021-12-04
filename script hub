@@ -1,0 +1,42 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("X Hub", "BloodTheme")
+--blox fruits
+local Tab = Window:NewTab("Blox Fruits")
+local Section = Tab:NewSection("Blox fruits")
+Section:NewButton("Night Hub", "Night Hub", function()
+    print("Clicked")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/NightsTimeZ/Night_Script/main/BloxFruit.lua"))()
+end)
+Section:NewButton("Admin script", "Admin script", function()
+    print("Clicked")
+    loadstring(game:HttpGet("https://pastebin.com/raw/UCsB5xC3", true))()
+end)
+    Section:NewButton("xDepressionx", "xDepressionx", function()
+        print("Clicked")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/xDepressionx/Free-Script/327527e41efc3fd0a46a2cdff649957295a00014/BloxFruit.lua"))()
+end)
+
+
+--true piece
+local Tab = Window:NewTab("True Piece")
+local Section = Tab:NewSection("True Piece")
+Section:NewButton("Black and gray gui", "Black And Gray GUI", function()
+    print("Clicked")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/simulatorwinner/scripts/main/True-Piece-GUI.lua"))()
+end)
+
+--pet simulator x
+local Tab = Window:NewTab("pet simulator x")
+local Section = Tab:NewSection("pet simulator x")
+Section:NewButton("ManaHub", "ManaHub", function()
+    print("Clicked")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Mana42138/Manahub-Script-Hyper-804-was-here.lua/main/Hyper-is-still-here.lua"))()
+end)
+
+--anime battle simulator
+local Tab = Window:NewTab("aba")
+local Section = Tab:NewSection("aba")
+Section:NewButton("NexHub", "NexHub", function()
+    print("Clicked")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/CopyReal/NexHub/main/NexHubLoader"))()
+end)
